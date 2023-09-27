@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.picture
+{
+    width: 200px;
+    height: auto;
+    position:absolute;
+    left: 90%;
+    top: 20%;
+    transform: translate(-70%);
+}
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover
+{
+    color: rgb(255, 211, 131);
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 60px;
+}
+
+section {
+    padding: 20px;
+}
+ul {
+    list-style: none;
+}
+
+#contact a:hover
+{
+    color: rgb(255, 211, 131);
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
